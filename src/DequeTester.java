@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Random;
 
 public class DequeTester {
@@ -7,7 +8,8 @@ public class DequeTester {
     public static void main(String[] args) {
         // choose a SimpleDeque implementation to test
         // SimpleDeque<Integer> deque = new ASLDeque<Integer>();
-        SimpleDeque<Integer> deque = new LSLDeque<>();
+        // SimpleDeque<Integer> deque = new LSLDeque<>();
+        SimpleDeque<Integer> deque = new CADeque<>();
 
         // test addition and removal of elements
         System.out.println("testing addition and removal...");
